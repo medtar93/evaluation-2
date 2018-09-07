@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- feuille de style css local -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CDN Script jQuery en ligne -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Script jQuery local -->
+    <title>LOCATION VOITURE</title>
+  </head>
+  <body>
+      <header class="container-fluid">
+        
+            <div class="container">
+                <h1 class="text-white">Bienvenue à bord</h1>
+                <p class="text-white">Location de voiture 24h/24 et 7j/7</p>
+            </div>
+            <!-- Bouton du hamburger -->
+			<button class="navbar-toggler navbar-expand-lg navbar-light bg-light menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Lien du menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active">Lien 1</button>
+          <button type="button" class="list-group-item list-group-item-action">Lien 2</button>
+          <button type="button" class="list-group-item list-group-item-action">Lien 3</button>
+          <button type="button" class="list-group-item list-group-item-action">Lien 4</button>
+          <button type="button" class="list-group-item list-group-item-action">Lien 5</button>
+        </div><!-- Fin div list-group -->
+      </div><!-- Fin div collapse navbar-collapse -->
+      <br><br><br><br>
+      	<!-- Formulaire de location -->
+	  	<div class="container-fluid bg-light">
+	  	  	<form class="location">
+  
+  	  			<select class="form-control custom-control-inline col-md-3 ml-4" id="exampleFormControlSelect1">
+  	  				<option>Adresse de départ</option>
+  	  				<option>Peugeot 208</option>
+  	  				<option>Audi A1</option>
+  	  				<option>Ford Focus</option>
+  	  				<option>Renault Clio IV</option>
+  	  			</select>
+  
+          <label for="debut">Début de location</label>
+  				<input type="text" id="debut" name="debut">
+  				
+  				<label for="fin">Fin de location</label>
+  				<input type="text" id="fin" name="fin">
+  
+  				<input type="submit" name="recherche" value="Valider ma recherche">
+  	  		</form>
+	  	</div>
+		</div><!-- Fin div container-fluid -->
+       </header>
+       <div class="container center-block "><!--  début div.container 1 qui fait office de wrapper -->
+         <div class="row"> <!-- div.row 1 -->
+           <p class="col-9 resultats"><strong>7 </strong>résultats</p>
+           <select class="custom-select col-2 bg-light text-dark " id="">
+             <option value="prix croissant">Prix croissant</option>
+             <option value="prix decroissant">Prix décroissant</option>
+           </select>
+          </div> <!-- fin div.row 1 -->
+          <div class="row  "><!-- début div.row 208 -->
+            <img src="imgs/vehicule1.png" alt="">
+            <div class="col">
+              <h3>Peugeot 208</h3>
+              <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5./km supplémentaire).</p>
+              <p>999 € - Agence de Paris</p>
+              <input type="submit" class="btn btn-lg btn-success" value="Réserver et">
+            </div>
+
+          </div> <!-- fin div.row -->
+          <div class="row "><!-- début div.row focus-->
+            <img src="imgs/vehicule2.png" alt="">
+            <div class="col">
+                <h3>Peugeot 208</h3>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5./km supplémentaire).</p>
+                <p>999 € - Agence de Paris</p>
+                <input type="submit" class="btn btn-lg btn-success" value="Réserver et">
+              </div>
+          </div> <!-- fin div.row -->
+         <div class="row "><!-- début div.row A1 -->
+            <img src="imgs/vehicule3.png" alt="">
+            <div class="col">
+                <h3>Peugeot 208</h3>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5./km supplémentaire).</p>
+                <p>999 € - Agence de Paris</p>
+                <input type="submit" class="btn btn-lg btn-success" value="Réserver et">
+              </div>
+         </div> <!-- fin div.row -->
+          <div class="row "><!-- début div.row Mokka -->
+          <img src="imgs/vehicule4.png" alt="">
+          <div class="col">
+              <h3>Peugeot 208</h3>
+              <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5./km supplémentaire).</p>
+              <p>999 € - Agence de Paris</p>
+              <input type="submit" class="btn btn-lg btn-success" value="Réserver et">
+            </div>
+          </div> <!-- fin div.row -->
+          <footer class="container-fluid row">
+              <div class="class=center-block">
+                <img src="imgs/agence.jpg" alt="agence" width="30%" class="image_agence">
+                <div class="adresse">
+                  <p >Notre agence de <strong>Paris</strong><br>
+                  300 boulevard de vaugirard, 75015, Paris<br>
+                  Ouvert 7j/7 de 09h à 13h et de 14h à 20h<br>
+                  01 49 78 21 33<br>
+                  contact@vtc.com</p>
+                </div>
+              </div>
+          </footer>
+        </div> <!-- fin div.container 1 -->
+
+
+
+       
+    
+
+   
+    
+  </body>
+</html>
